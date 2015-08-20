@@ -23,14 +23,14 @@ body {
     margin-bottom: -25px;
     -webkit-animation-delay: 2s;
     /* z-index must be higher than the logo z-index, this places the Navbar above the logo; ALSO 'position' must be set or the browser will ingnore the z-index*/
-    z-index: 1;
+    z-index: 1000;
     position: relative;
 }
 
 #logo {
    margin-left: -19px;
    /* Logo z-index must be lower than the Navbar z-index, this places the Navbar above the logo; ALSO 'position' must be set or the browser will ingnore the z-index*/
-   z-index: -1;
+   z-index: -100;
    position: relative;
 }
 
@@ -56,6 +56,8 @@ body {
 #hero {
     height: 600px;
     width: 100%;
+    z-index: -100;
+    position: relative;
 }
 /* --cant make the image fit inside the jumbotron.. and ideas?--
 .jumbotron{
