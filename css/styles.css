@@ -16,7 +16,7 @@ body {
 
 .row {
     max-width: 100%;
-    display: -webkit-flex;/*-webkit is needed for safari*/
+    /*display: -webkit-flex;-webkit is needed for safari*/
 }
 
 .navigation {
