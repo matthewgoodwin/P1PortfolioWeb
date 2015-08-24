@@ -1,8 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-
-
+<!DOCTYPE HTML>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +32,7 @@
               </div>
           </nav>
       </div>
-   <!--the navbar is placed above the logo, name and title elements here in the text editor. So they will overlap the navbar. Z-Index resolves this issue--> 
+   <!--the navbar is placed above the logo, name and title elements here in the text editor. So they will overlap the navbar. Z-Index resolves this issue-->
 <div class="container">
   	<div class="row">
           <div class="col-md-2">
@@ -48,7 +44,8 @@
           </div>
     </div>
 
-    <!--<div class="row">
+    <!--TODO: make entire image fit jumbotron background
+    <div class="row">
         <div class="col-md-12 jumbotron">
           <div class="container"> Jumbotron works, but the image will not fit in the container =(
         </div>
@@ -61,7 +58,7 @@
           </div>
     </div>
 
-    <div class="row"><!-- scroll activated animation; featured project header-->
+    <div class="row"><!--TODO: scroll activated animation; featured project header-->
           <div class="col-md-12">
                 <h3 id="featuredProjects" class="text-center text-uppercase">Featured Projects</h3>
           </div>
@@ -117,88 +114,96 @@
 </div><!--end of container-->
   
 <!--MODALS BEGIN HERE-->
-
-<div class="modal fade" id="p1modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-     <div class="modal-dialog" role="document">
-          <div class="modal-content">
-                <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h3 class="modal-title text-center text-uppercase">project 1</h3>
-                </div>
-                <div class="modal-body">
-                      <img id="modalthumbnail1" class="img-responsive" src="images/tablet_desk_smart_small.jpg" alt="modalthumbnail">
-                      <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                      </p>
-                </div>
-                <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Continue</button>
-                </div>
-          </div>
+<div id="modal_1">
+    <div class="modal fade" id="p1modal" tabindex="-1" role="dialog" aria-labelledby="modal_1">
+         <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h3 class="modal-title text-center text-uppercase">project 1</h3>
+                    </div>
+                    <div class="modal-body">
+                          <img id="modalthumbnail1" class="img-responsive" src="images/tablet_desk_smart_small.jpg" alt="modalthumbnail">
+                          <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                          </p>
+                    </div>
+                    <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Continue</button>
+                    </div>
+              </div>
+        </div>
     </div>
 </div>
-<div class="modal fade" id="p2modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-     <div class="modal-dialog" role="document">
-          <div class="modal-content">
-                <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h3 class="modal-title text-center text-uppercase">project 2</h3>
-                </div>
-                <div class="modal-body">
-                      <img id="modalthumbnail2" class="img-responsive" src="images/mac_silver_small.jpg" alt="modalthumbnail">
-                      <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                      </p>
-                </div>
-                <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Continue</button>
-                </div>
-          </div>
+<div id="modal_2">
+    <div class="modal fade" id="p2modal" tabindex="-1" role="dialog" aria-labelledby="modal_2">
+         <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h3 class="modal-title text-center text-uppercase">project 2</h3>
+                    </div>
+                    <div class="modal-body">
+                          <img id="modalthumbnail2" class="img-responsive" src="images/mac_silver_small.jpg" alt="modalthumbnail">
+                          <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                          </p>
+                    </div>
+                    <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Continue</button>
+                    </div>
+              </div>
+        </div>
     </div>
 </div>
-<div class="modal fade" id="p3modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-     <div class="modal-dialog" role="document">
-          <div class="modal-content">
-                <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h3 class="modal-title text-center text-uppercase">project 3</h3>
-                </div>
-                <div class="modal-body">
-                      <img id="modalthumbnail3" class="img-responsive" src="images/placeimg_500_300_grayscale_tech(1).jpg" alt="modalthumbnail">
-                      <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                      </p>
-                </div>
-                <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Continue</button>
-                </div>
-          </div>
+<div id="modal_3">
+    <div class="modal fade" id="p3modal" tabindex="-1" role="dialog" aria-labelledby="modal_3">
+         <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h3 class="modal-title text-center text-uppercase">project 3</h3>
+                    </div>
+                    <div class="modal-body">
+                          <img id="modalthumbnail3" class="img-responsive" src="images/placeimg_500_300_grayscale_tech(1).jpg" alt="modalthumbnail">
+                          <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                          </p>
+                    </div>
+                    <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Continue</button>
+                    </div>
+              </div>
+        </div>
     </div>
 </div>
-<div class="modal fade" id="p4modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-     <div class="modal-dialog" role="document">
-          <div class="modal-content">
-                <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h3 class="modal-title text-center text-uppercase">project 4</h3>
-                </div>
-                <div class="modal-body">
-                      <img id="modalthumbnail4" class="img-responsive" src="images/placeimg_500_300_grayscale_tech.jpg" alt="modalthumbnail">
-                      <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                      </p>
-                </div>
-                <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Continue</button>
-                </div>
-          </div>
+<div id="modal_4">
+    <div class="modal fade" id="p4modal" tabindex="-1" role="dialog" aria-labelledby="modal_4">
+         <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h3 class="modal-title text-center text-uppercase">project 4</h3>
+                    </div>
+                    <div class="modal-body">
+                          <img id="modalthumbnail4" class="img-responsive" src="images/placeimg_500_300_grayscale_tech.jpg" alt="modalthumbnail">
+                          <p class="modalbox-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                          </p>
+                    </div>
+                    <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Continue</button>
+                    </div>
+              </div>
+        </div>
     </div>
 </div>
 <!--MODAL ENDS HERE-->
 <!--script tags at the bottom, faster load time-->
-<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!--<script type="text/javascript">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- TODO: add scrolling function 
+<script type="text/javascript">
   $('.AbtMeScroll').each(function () {
     var y = $(document).scrollTop();
     var t = $(this).parent().offset().top;
