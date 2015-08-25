@@ -16,7 +16,7 @@ body {
 
 .row {
     max-width: 100%;
-    /*display: -webkit-flex;-webkit is needed for safari*/
+    /*display: -webkit-flex;-webkit is needed for safari but for some reason it causes the webpage to become unresponsive on smaller media devices*/
 }
 
 .navigation {
@@ -59,7 +59,7 @@ body {
     z-index: -100;
     position: relative;
 }
-/* --cant make the image fit inside the jumbotron.. and ideas?--
+/* --I cant make the image fit inside the jumbotron section..The image appears but it does not fit the background?--
 .jumbotron{
     margin-bottom: 0px;
     background-image: url(../images/WorldTour.jpg);
@@ -80,7 +80,7 @@ body {
 #thumbnail1 {
     width: 500px;
     height: 300px;
-    margin: 2% 0% 0% 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
+    margin: 2% 0 0 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
 }
 
 #project1 {
@@ -90,7 +90,7 @@ body {
 #thumbnail2 {
     width: 500px;
     height: 300px;
-    margin: 2% 0% 0% 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
+    margin: 2% 0 0 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
 }
 
 #project2 {
@@ -100,7 +100,7 @@ body {
 #thumbnail3 {
     width: 500px;
     height: 300px;
-    margin: 2% 0% 0% 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
+    margin: 2% 0 0 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
 }
 
 #project3 {
@@ -110,7 +110,7 @@ body {
 #thumbnail4 {
     width: 500px;
     height: 300px;
-    margin: 2% 0% 0% 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
+    margin: 2% 0 0 3.5%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
 }
 
 #project4 {
@@ -130,7 +130,7 @@ body {
 /*.AbtMeScroll{
     display: none;
     position: absolute;
-}*/
+} this should be the class of the element/div that will become/shown active aftr scrolling to its parent element/div s*/
 
 #iThinkTherefore {
     font-family: "Marvel", sans-serif;
@@ -138,12 +138,12 @@ body {
 
 #iam {
     font-family: "Marvel", sans-serif;
-    margin: 2% 0% 0% 50%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
+    margin: 2% 0 0 50%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
 }
 
 #skillSet {
     font-family: "Marvel", sans-serif;
-    margin: 2% 0% 0% 50%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
+    margin: 2% 0 0 50%;/* SHORTHAND ORDER= CLOCKWISE: top, right, bottom, left*/
 }
 
 .aboutMeText {
